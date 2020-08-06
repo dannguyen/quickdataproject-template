@@ -8,5 +8,8 @@ help:
 ALL: clean
 
 
+collect_manifest:
+	./scripts/collect_manifest.py
+
 clean: clean_sqlize
 	@echo --- Cleaning stubs

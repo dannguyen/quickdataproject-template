@@ -2,7 +2,8 @@
 #  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
 #   know not just the source URL, but the context of the dataset when published
 
-data/collected/hello.txt:
+collected/hello.txt:
+  autocollect: true
   url: https://gist.githubusercontent.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8/raw/9bf95b5c6e234e491821cd355f6db1ec655cbe38/hello.txt
   landing_page: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8
   description: |
@@ -10,8 +11,8 @@ data/collected/hello.txt:
 
     Tab delimited computing pioneers
 
-
-data/collected/world.txt:
+collected/world.txt:
+  autocollect: true
   url: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8/raw/9bf95b5c6e234e491821cd355f6db1ec655cbe38/world.txt
   landing_page: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8
   description: |
